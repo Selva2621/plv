@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ssmmp.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "API_BASE_URL": "http://192.168.86.8:3000",
+      "WEBSOCKET_URL": "http://192.168.86.8:3000/chat",
+      "APP_NAME": "Cosmic Love",
+      "APP_VERSION": "1.0.0",
+      "NODE_ENV": "development",
+      "DEBUG_MODE": true,
+      "API_TIMEOUT": 10000,
+      "WEBSOCKET_TIMEOUT": 10000,
+      "WEBSOCKET_RECONNECT_ATTEMPTS": 5,
+      "WEBSOCKET_RECONNECT_DELAY": 1000,
+      "ENABLE_WEBSOCKET": true,
+      "ENABLE_PUSH_NOTIFICATIONS": false,
+      "ENABLE_ANALYTICS": false,
+      "eas": {
+        "projectId": "b7023147-4466-4028-b096-c04b24cb4520"
+      }
+    }
+  }
+}
